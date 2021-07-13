@@ -52,7 +52,7 @@ const IconLabel = styled.div<ThemedIconLabel>`
   padding: 12px;
 `;
 
-const withHandlerSpacing = 32 + 12 + 8; // button size ++ inner spacing + handler position
+const withHandlerSpacing = 32 + 12 + 8; // button size + inner spacing + handler position
 const Details = styled.div<{ hasHandler: boolean }>`
   flex: 1;
   padding-bottom: 12px;
