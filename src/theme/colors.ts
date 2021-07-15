@@ -32,7 +32,7 @@ export const lightColors: Colors = {
   textSubtle: "#090a0b",
   borderColor: "#E9EAEB",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #DA5863 0%, #ffffff 100%)",
+    bubblegum: "linear-gradient(139.73deg, #1C2826 0%, #1C2826 100%)",
     cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
     blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
     violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
@@ -43,7 +43,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#52AF20",
+  secondary: "#24E574",
   background: "#ccebff", // main background
   backgroundDisabled: "#3c3742",
   backgroundAlt: "#808080", // menu, header, boxes
