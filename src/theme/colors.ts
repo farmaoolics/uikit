@@ -56,7 +56,7 @@ export const darkColors: Colors = {
   tertiary: "#ccebff",
   text: "#e2effc",
   textDisabled: "#666171",
-  textSubtle: "#0000", // menu text
+  textSubtle: "#FFFFFF", // menu text
   borderColor: "#524B63",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #2a4654 100%)",
