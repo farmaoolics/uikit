@@ -81,9 +81,9 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
           </MenuEntry>
         );
       })}
-      <a href="https://rugdoc.io/project/gryphon-swap/" target="_blank">
+      {/* <a href="https://rugdoc.io/project/gryphon-swap/" target="_blank">
         <img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="Rug Doctor" width="100%"/>
-      </a>
+    </a> */}
     </Container>
   );
 };

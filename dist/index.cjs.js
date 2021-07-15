@@ -3492,28 +3492,25 @@ var PanelBody = function (_a) {
     var location = reactRouterDom.useLocation();
     // Close the menu when a user clicks a link on mobile
     var handleClick = isMobile ? function () { return pushNav(false); } : undefined;
-    return (React__default['default'].createElement(Container$1, null,
-        links.map(function (entry) {
-            var Icon = Icons$1[entry.icon];
-            var iconElement = React__default['default'].createElement(Icon, { width: "24px", mr: "8px" });
-            var calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
-            if (entry.items) {
-                var itemsMatchIndex = entry.items.findIndex(function (item) { return item.href === location.pathname; });
-                var initialOpenState = entry.initialOpenState === true ? entry.initialOpenState : itemsMatchIndex >= 0;
-                return (React__default['default'].createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, status: entry.status, initialOpenState: initialOpenState, className: calloutClass, isActive: entry.items.some(function (item) { return item.href === location.pathname; }) }, isPushed &&
-                    entry.items.map(function (item) { return (React__default['default'].createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
-                        React__default['default'].createElement(MenuLink, { href: item.href },
-                            React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, item.label),
-                            item.status && (React__default['default'].createElement(LinkStatus, { color: item.status.color, fontSize: "14px" }, item.status.text))))); })));
-            }
-            return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
-                React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick },
-                    iconElement,
-                    React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
-                    entry.status && (React__default['default'].createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
-        }),
-        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/gryphon-swap/", target: "_blank" },
-            React__default['default'].createElement("img", { src: "https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png", alt: "Rug Doctor", width: "100%" }))));
+    return (React__default['default'].createElement(Container$1, null, links.map(function (entry) {
+        var Icon = Icons$1[entry.icon];
+        var iconElement = React__default['default'].createElement(Icon, { width: "24px", mr: "8px" });
+        var calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
+        if (entry.items) {
+            var itemsMatchIndex = entry.items.findIndex(function (item) { return item.href === location.pathname; });
+            var initialOpenState = entry.initialOpenState === true ? entry.initialOpenState : itemsMatchIndex >= 0;
+            return (React__default['default'].createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, status: entry.status, initialOpenState: initialOpenState, className: calloutClass, isActive: entry.items.some(function (item) { return item.href === location.pathname; }) }, isPushed &&
+                entry.items.map(function (item) { return (React__default['default'].createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
+                    React__default['default'].createElement(MenuLink, { href: item.href },
+                        React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, item.label),
+                        item.status && (React__default['default'].createElement(LinkStatus, { color: item.status.color, fontSize: "14px" }, item.status.text))))); })));
+        }
+        return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
+            React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick },
+                iconElement,
+                React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
+                entry.status && (React__default['default'].createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
+    })));
 };
 var templateObject_1$9;
 
@@ -3967,11 +3964,11 @@ var ResetCSS = styled.createGlobalStyle(templateObject_1 || (templateObject_1 = 
 var templateObject_1;
 
 var baseColors = {
-    failure: "#ecb719",
+    failure: "#DA5863",
     primary: "#dc2026",
     primaryBright: "#555ED5",
     primaryDark: "#43349c",
-    secondary: "#ecb719",
+    secondary: "#DA5863",
     success: "#93d55f",
     warning: "#FFB237",
     white: "#fff",
@@ -3980,7 +3977,7 @@ var brandColors = {
     binance: "#F0B90B",
 };
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#ccebff", backgroundDisabled: "#E9EAEB", backgroundAlt: "#ccebff", contrast: "#191326", dropdown: "#F6F6F6", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#d7caec", tertiary: "#EFF4F5", text: "#090a0b", textDisabled: "#BDC2C4", textSubtle: "#090a0b", borderColor: "#E9EAEB", gradients: {
-        bubblegum: "linear-gradient(139.73deg, #ecb719 0%, #ffffff 100%)",
+        bubblegum: "linear-gradient(139.73deg, #DA5863 0%, #ffffff 100%)",
         cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
         blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
