@@ -3053,7 +3053,7 @@ var Icon$n = function (props) {
 };
 
 var Logo$2 = function () {
-    return (React.createElement("img", { alt: "Gryphon Swap", src: "/images/gryphon/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
+    return (React.createElement("img", { alt: "Ladybug Swap", src: "/images/ladybug/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
 };
 
 var Icon$m = function (props) {
