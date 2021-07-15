@@ -1026,7 +1026,7 @@ var IconLabel = styled.div(templateObject_1$P || (templateObject_1$P = __makeTem
     var theme = _a.theme;
     return theme.alert.background;
 });
-var withHandlerSpacing = 32 + 12 + 8; // button size + inner spacing + handler position
+var withHandlerSpacing = 32 + 12 + 8; // button size ++ inner spacing + handler position
 var Details = styled.div(templateObject_2$m || (templateObject_2$m = __makeTemplateObject(["\n  flex: 1;\n  padding-bottom: 12px;\n  padding-left: 12px;\n  padding-right: ", ";\n  padding-top: 12px;\n"], ["\n  flex: 1;\n  padding-bottom: 12px;\n  padding-left: 12px;\n  padding-right: ", ";\n  padding-top: 12px;\n"])), function (_a) {
     var hasHandler = _a.hasHandler;
     return (hasHandler ? withHandlerSpacing + "px" : "12px");
