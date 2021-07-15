@@ -1026,7 +1026,7 @@ var IconLabel = styled.div(templateObject_1$P || (templateObject_1$P = __makeTem
     var theme = _a.theme;
     return theme.alert.background;
 });
-var withHandlerSpacing = 32 + 12 + 8; // button size ++ inner spacing + handler position
+var withHandlerSpacing = 32 + 12 + 8; // button size + inner spacing + handler position
 var Details = styled.div(templateObject_2$m || (templateObject_2$m = __makeTemplateObject(["\n  flex: 1;\n  padding-bottom: 12px;\n  padding-left: 12px;\n  padding-right: ", ";\n  padding-top: 12px;\n"], ["\n  flex: 1;\n  padding-bottom: 12px;\n  padding-left: 12px;\n  padding-right: ", ";\n  padding-top: 12px;\n"])), function (_a) {
     var hasHandler = _a.hasHandler;
     return (hasHandler ? withHandlerSpacing + "px" : "12px");
@@ -3972,7 +3972,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#52AF20", background: "#ccebff", backgroundDisabled: "#3c3742", backgroundAlt: "#808080", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#ccebff", text: "#e2effc", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#52AF20", background: "#ccebff", backgroundDisabled: "#3c3742", backgroundAlt: "#808080", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#808080", text: "#e2effc", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #2a4654 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",

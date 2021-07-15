@@ -53,7 +53,7 @@ export const darkColors: Colors = {
   input: "#011A27",
   inputSecondary: "#66578D",
   primaryDark: "#0098A1",
-  tertiary: "#ccebff",
+  tertiary: "#808080",
   text: "#e2effc",
   textDisabled: "#666171",
   textSubtle: "#FFFFFF", // menu text
