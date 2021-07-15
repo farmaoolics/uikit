@@ -46,7 +46,7 @@ export const darkColors: Colors = {
   secondary: "#52AF20",
   background: "#ccebff",
   backgroundDisabled: "#3c3742",
-  backgroundAlt: "#ccebff",
+  backgroundAlt: "#FFFFFF",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   invertedContrast: "#191326",
