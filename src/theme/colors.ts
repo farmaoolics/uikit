@@ -44,9 +44,9 @@ export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
   secondary: "#52AF20",
-  background: "#ccebff",
+  background: "#ccebff", // main background
   backgroundDisabled: "#3c3742",
-  backgroundAlt: "#5D9878",
+  backgroundAlt: "#273F32", // menu, header, boxes
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   invertedContrast: "#191326",
@@ -56,7 +56,7 @@ export const darkColors: Colors = {
   tertiary: "#ccebff",
   text: "#e2effc",
   textDisabled: "#666171",
-  textSubtle: "#D33643",
+  textSubtle: "#0000", // menu text
   borderColor: "#524B63",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #2a4654 100%)",
