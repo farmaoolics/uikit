@@ -59,7 +59,7 @@ export const darkColors: Colors = {
   textSubtle: "#FFFFFF", // menu text
   borderColor: "#524B63",
   gradients: {
-    bubblegum: "linear-gradient(#808080 70%, #ccebff 30%)",
+    bubblegum: "linear-gradient(#808080 30%, #ccebff 70%)",
     cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
