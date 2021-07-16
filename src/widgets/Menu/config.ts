@@ -152,14 +152,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/gryphonswap"
+        href: "https://t.me/ladybug_swap"
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/gryphonswap",
+    href: "https://twitter.com/ladybug_swap",
   },
 ];
 
