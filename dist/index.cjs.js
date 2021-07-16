@@ -723,7 +723,7 @@ var Icon$V = function (props) {
 
 var Icon$U = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/gryphon/token.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/ladybug/token.png" })));
 };
 
 var Icon$T = function (props) {
@@ -1885,7 +1885,7 @@ var templateObject_1$p, templateObject_2$c, templateObject_3$7, templateObject_4
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/gryphon/token.png" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/ladybug/token.png" })));
 };
 
 var rotate = styled.keyframes(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
@@ -3228,7 +3228,7 @@ var Logo = function (_a) {
         React__default['default'].createElement(Logo$2, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "0px" }, isPushed ? (React__default['default'].createElement(Icon$r, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$s, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Gryphon Swap home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Gryphon Swap home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Ladybug Swap home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Ladybug Swap home page" }, innerLogo))));
 };
 var Logo$1 = React__default['default'].memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$c, templateObject_2$5;
