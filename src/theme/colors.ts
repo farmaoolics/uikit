@@ -44,9 +44,9 @@ export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
   secondary: "#24E574",
-  background: "#ccebff", // main background
+  background: "#DEF7DE", // main background
   backgroundDisabled: "#273F32",
-  backgroundAlt: "#808080", // menu, header, boxes
+  backgroundAlt: "#93CAB9", // menu, header, boxes
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   invertedContrast: "#191326",

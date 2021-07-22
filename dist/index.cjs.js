@@ -723,7 +723,7 @@ var Icon$V = function (props) {
 
 var Icon$U = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/ladybug/token.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/spicycake/token.png" })));
 };
 
 var Icon$T = function (props) {
@@ -2952,7 +2952,7 @@ var Modal = function (_a) {
         React__default['default'].createElement(ModalBody, { p: bodyPadding }, children)));
 };
 
-var Overlay = styled__default['default'].div.attrs({ role: "presentation" })(templateObject_1$f || (templateObject_1$f = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #DA5863;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #DA5863;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
+var Overlay = styled__default['default'].div.attrs({ role: "presentation" })(templateObject_1$f || (templateObject_1$f = __makeTemplateObject(["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #93CAB9;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"], ["\n  position: fixed;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  background-color: #93CAB9;\n  transition: opacity 0.4s;\n  opacity: ", ";\n  z-index: ", ";\n  pointer-events: ", ";\n"])), function (_a) {
     var show = _a.show;
     return (show ? 0.6 : 0);
 }, function (_a) {
@@ -3067,7 +3067,7 @@ var Icon$n = function (props) {
 };
 
 var Logo$2 = function () {
-    return (React__default['default'].createElement("img", { alt: "Ladybug Swap", src: "/images/ladybug/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
+    return (React__default['default'].createElement("img", { alt: "SpicyCake Finance", src: "/images/spicycake/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
 };
 
 var Icon$m = function (props) {
@@ -3228,7 +3228,7 @@ var Logo = function (_a) {
         React__default['default'].createElement(Logo$2, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "0px" }, isPushed ? (React__default['default'].createElement(Icon$r, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$s, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Ladybug Swap home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Ladybug Swap home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "SpicyCake Finance home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "SpicyCake Finance home page" }, innerLogo))));
 };
 var Logo$1 = React__default['default'].memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$c, templateObject_2$5;
@@ -3983,7 +3983,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#24E574", background: "#ccebff", backgroundDisabled: "#273F32", backgroundAlt: "#808080", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#808080", text: "#e2effc", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#24E574", background: "#DEF7DE", backgroundDisabled: "#273F32", backgroundAlt: "#93CAB9", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#808080", text: "#e2effc", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(#808080 43%,#ccebff 104%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
