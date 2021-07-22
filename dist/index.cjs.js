@@ -1885,7 +1885,7 @@ var templateObject_1$p, templateObject_2$c, templateObject_3$7, templateObject_4
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/ladybug/token.png" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/spicycake/token.png" })));
 };
 
 var rotate = styled.keyframes(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
@@ -3969,7 +3969,7 @@ var baseColors = {
     primaryBright: "#555ED5",
     primaryDark: "#43349c",
     secondary: "#DA5863",
-    success: "#93d55f",
+    success: "#F40000",
     warning: "#FFB237",
     white: "#fff",
 };
@@ -3983,7 +3983,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#24E574", background: "#DEF7DE", backgroundDisabled: "#273F32", backgroundAlt: "#93CAB9", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#ffffff", textDisabled: "#666171", textSubtle: "#000000", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4E3822", background: "#DEF7DE", backgroundDisabled: "#273F32", backgroundAlt: "#93CAB9", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#ffffff", textDisabled: "#666171", textSubtle: "#000000", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(#808080 43%,#ccebff 104%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
