@@ -3383,14 +3383,14 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/ladybug_swap"
+                href: "https://t.me/spicycakefinance"
             },
         ],
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/ladybug_swap",
+        href: "https://twitter.com/spicycakefin",
     },
 ];
 var MENU_HEIGHT = 64;
