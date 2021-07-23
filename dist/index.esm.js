@@ -3969,8 +3969,8 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4E3822", background: "#DEF7DE", backgroundDisabled: "#273F32", backgroundAlt: "#93CAB9", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#011A27", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#ffffff", textDisabled: "#666171", textSubtle: "#000000", borderColor: "#524B63", gradients: {
-        bubblegum: "linear-gradient(#808080 43%,#ccebff 104%)",
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4E3822", background: "#DEF7DE", backgroundDisabled: "#4E3822", backgroundAlt: "#93CAB9", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#4E3822", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#ffffff", textDisabled: "#666171", textSubtle: "#000000", borderColor: "#524B63", gradients: {
+        bubblegum: "linear-gradient(#DEF7DE 43%,#DEF7DE 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
         violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",

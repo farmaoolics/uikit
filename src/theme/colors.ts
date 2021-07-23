@@ -45,12 +45,12 @@ export const darkColors: Colors = {
   ...brandColors,
   secondary: "#4E3822",
   background: "#DEF7DE", // main background
-  backgroundDisabled: "#273F32",
+  backgroundDisabled: "#4E3822", // buttons disable
   backgroundAlt: "#93CAB9", // menu, header, boxes
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   invertedContrast: "#191326",
-  input: "#011A27",
+  input: "#4E3822", // modal input
   inputSecondary: "#66578D",
   primaryDark: "#0098A1",
   tertiary: "#F40000",
@@ -59,7 +59,7 @@ export const darkColors: Colors = {
   textSubtle: "#000000", // menu text
   borderColor: "#524B63",
   gradients: {
-    bubblegum: "linear-gradient(#808080 43%,#ccebff 104%)",
+    bubblegum: "linear-gradient(#DEF7DE 43%,#DEF7DE 100%)",
     cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
