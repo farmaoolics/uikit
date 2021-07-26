@@ -3513,7 +3513,7 @@ var PanelBody = function (_a) {
                     entry.status && (React__default['default'].createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
         }),
         React__default['default'].createElement("a", { href: "https://rugdoc.io/project/spicycake-finance/", target: "_blank" },
-            React__default['default'].createElement("img", { src: "https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png", alt: "Rug Doctor", width: "100%" }))));
+            React__default['default'].createElement("img", { src: "rugdoctor.png", alt: "Rug Doctor", width: "100%" }))));
 };
 var templateObject_1$9;
 

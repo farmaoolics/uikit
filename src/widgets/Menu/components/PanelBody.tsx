@@ -82,7 +82,7 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
         );
       })}
       <a href="https://rugdoc.io/project/spicycake-finance/" target="_blank">
-        <img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="Rug Doctor" width="100%"/>
+        <img src="rugdoctor.png" alt="Rug Doctor" width="100%"/>
     </a>
     </Container>
   );
