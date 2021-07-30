@@ -709,7 +709,7 @@ var Icon$V = function (props) {
 
 var Icon$U = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 90, height: 90, href: "images/ball8/token.png" })));
+        React.createElement("image", { width: 90, height: 90, href: "images/balleight/token.png" })));
 };
 
 var Icon$T = function (props) {
@@ -1871,7 +1871,7 @@ var templateObject_1$p, templateObject_2$c, templateObject_3$7, templateObject_4
 
 var Icon$v = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React.createElement("image", { width: "96", height: "96", href: "images/ball8/token.png" })));
+        React.createElement("image", { width: "96", height: "96", href: "images/balleight/token.png" })));
 };
 
 var rotate = keyframes(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
@@ -3053,7 +3053,7 @@ var Icon$n = function (props) {
 };
 
 var Logo$2 = function () {
-    return (React.createElement("img", { alt: "Ball8 Finance", src: "/images/ball8/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
+    return (React.createElement("img", { alt: "Ball8 Finance", src: "/images/balleight/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
 };
 
 var Icon$m = function (props) {
@@ -3214,7 +3214,7 @@ var Logo = function (_a) {
         React.createElement(Logo$2, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "0px" }, isPushed ? (React.createElement(Icon$r, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$s, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "ball8 Finance home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "ball8 Finance home page" }, innerLogo))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Ball8 Finance home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Ball8 Finance home page" }, innerLogo))));
 };
 var Logo$1 = React.memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$c, templateObject_2$5;
