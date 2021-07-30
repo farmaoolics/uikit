@@ -723,7 +723,7 @@ var Icon$V = function (props) {
 
 var Icon$U = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/spicycake/token.png" })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: "images/ball8/token.png" })));
 };
 
 var Icon$T = function (props) {
@@ -1885,7 +1885,7 @@ var templateObject_1$p, templateObject_2$c, templateObject_3$7, templateObject_4
 
 var Icon$v = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/spicycake/token.png" })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: "images/ball8/token.png" })));
 };
 
 var rotate = styled.keyframes(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
@@ -3067,7 +3067,7 @@ var Icon$n = function (props) {
 };
 
 var Logo$2 = function () {
-    return (React__default['default'].createElement("img", { alt: "SpicyCake Finance", src: "/images/spicycake/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
+    return (React__default['default'].createElement("img", { alt: "Ball8 Finance", src: "/images/ball8/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
 };
 
 var Icon$m = function (props) {
@@ -3228,7 +3228,7 @@ var Logo = function (_a) {
         React__default['default'].createElement(Logo$2, { className: "desktop-icon", isDark: isDark })));
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "0px" }, isPushed ? (React__default['default'].createElement(Icon$r, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$s, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "SpicyCake Finance home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "SpicyCake Finance home page" }, innerLogo))));
+        isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Ball8 Finance home page" }, innerLogo)) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Ball8 Finance home page" }, innerLogo))));
 };
 var Logo$1 = React__default['default'].memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$c, templateObject_2$5;
@@ -3380,12 +3380,7 @@ var socials = [
     {
         label: "Discord",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/spicycakefinance"
-            },
-        ],
+        href: "https://t.me/ball8finance",
     },
     {
         label: "Twitter",
@@ -3492,28 +3487,25 @@ var PanelBody = function (_a) {
     var location = reactRouterDom.useLocation();
     // Close the menu when a user clicks a link on mobile
     var handleClick = isMobile ? function () { return pushNav(false); } : undefined;
-    return (React__default['default'].createElement(Container$1, null,
-        links.map(function (entry) {
-            var Icon = Icons$1[entry.icon];
-            var iconElement = React__default['default'].createElement(Icon, { width: "24px", mr: "8px" });
-            var calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
-            if (entry.items) {
-                var itemsMatchIndex = entry.items.findIndex(function (item) { return item.href === location.pathname; });
-                var initialOpenState = entry.initialOpenState === true ? entry.initialOpenState : itemsMatchIndex >= 0;
-                return (React__default['default'].createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, status: entry.status, initialOpenState: initialOpenState, className: calloutClass, isActive: entry.items.some(function (item) { return item.href === location.pathname; }) }, isPushed &&
-                    entry.items.map(function (item) { return (React__default['default'].createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
-                        React__default['default'].createElement(MenuLink, { href: item.href },
-                            React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, item.label),
-                            item.status && (React__default['default'].createElement(LinkStatus, { color: item.status.color, fontSize: "14px" }, item.status.text))))); })));
-            }
-            return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
-                React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick },
-                    iconElement,
-                    React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
-                    entry.status && (React__default['default'].createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
-        }),
-        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/spicycake-finance/", target: "_blank" },
-            React__default['default'].createElement("img", { src: "rugdoctor.png", alt: "Rug Doctor", width: "100%" }))));
+    return (React__default['default'].createElement(Container$1, null, links.map(function (entry) {
+        var Icon = Icons$1[entry.icon];
+        var iconElement = React__default['default'].createElement(Icon, { width: "24px", mr: "8px" });
+        var calloutClass = entry.calloutClass ? entry.calloutClass : undefined;
+        if (entry.items) {
+            var itemsMatchIndex = entry.items.findIndex(function (item) { return item.href === location.pathname; });
+            var initialOpenState = entry.initialOpenState === true ? entry.initialOpenState : itemsMatchIndex >= 0;
+            return (React__default['default'].createElement(Accordion, { key: entry.label, isPushed: isPushed, pushNav: pushNav, icon: iconElement, label: entry.label, status: entry.status, initialOpenState: initialOpenState, className: calloutClass, isActive: entry.items.some(function (item) { return item.href === location.pathname; }) }, isPushed &&
+                entry.items.map(function (item) { return (React__default['default'].createElement(MenuEntry, { key: item.href, secondary: true, isActive: item.href === location.pathname, onClick: handleClick },
+                    React__default['default'].createElement(MenuLink, { href: item.href },
+                        React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, item.label),
+                        item.status && (React__default['default'].createElement(LinkStatus, { color: item.status.color, fontSize: "14px" }, item.status.text))))); })));
+        }
+        return (React__default['default'].createElement(MenuEntry, { key: entry.label, isActive: entry.href === location.pathname, className: calloutClass },
+            React__default['default'].createElement(MenuLink, { href: entry.href, onClick: handleClick },
+                iconElement,
+                React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
+                entry.status && (React__default['default'].createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
+    })));
 };
 var templateObject_1$9;
 
@@ -3532,9 +3524,17 @@ var SocialLinks = function () { return (React__default['default'].createElement(
     var Icon = Icons[social.icon];
     var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
     var mr = index < socials.length - 1 ? "24px" : 0;
-    if (social.items) {
-        return (React__default['default'].createElement(Dropdown, { key: social.label, position: "top", target: React__default['default'].createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React__default['default'].createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
-    }
+    /*   if (social.items) {
+         return (
+           <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
+             {social.items.map((item) => (
+               <Link external key={item.label} href={item.href} aria-label={item.label} color="textSubtle">
+                 {item.label}
+               </Link>
+             ))}
+           </Dropdown>
+         );
+       } */
     return (React__default['default'].createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
         React__default['default'].createElement(Icon, __assign({}, iconProps))));
 }))); };
@@ -3986,7 +3986,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4E3822", background: "#DEF7DE", backgroundDisabled: "#4E3822", backgroundAlt: "#93CAB9", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#4E3822", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#ffffff", textDisabled: "#666171", textSubtle: "#000000", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4E3822", background: "#FFFFFF", backgroundDisabled: "#4E3822", backgroundAlt: "#000000", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#4E3822", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(#DEF7DE 43%,#DEF7DE 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
