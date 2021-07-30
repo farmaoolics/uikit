@@ -22,7 +22,7 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
           onClick={() => {
             onPresentAccountModal();
           }}
-          style={{color: '#fff'}}
+          style={{color: '#000'}}
         >
           {accountEllipsis}
         </Button>

@@ -3806,7 +3806,7 @@ var UserBlock = function (_a) {
     var accountEllipsis = account ? account.substring(0, 4) + "..." + account.substring(account.length - 4) : null;
     return (React__default['default'].createElement("div", null, account ? (React__default['default'].createElement(Button, { scale: "sm", variant: "tertiary", onClick: function () {
             onPresentAccountModal();
-        }, style: { color: '#fff' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
+        }, style: { color: '#000' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
             onPresentConnectModal();
         } }, "Connect"))));
 };
@@ -3986,7 +3986,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { ba
         violet: "linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)",
         violetAlt: "linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#4E3822", background: "#FFFFFF", backgroundDisabled: "#4E3822", backgroundAlt: "#000000", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#4E3822", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#FFFFFF", background: "#FFFFFF", backgroundDisabled: "#808080", backgroundAlt: "#808080", contrast: "#FFFFFF", dropdown: "#1E1D20", invertedContrast: "#191326", input: "#FFFFFF", inputSecondary: "#66578D", primaryDark: "#0098A1", tertiary: "#F40000", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#FFFFFF", borderColor: "#524B63", gradients: {
         bubblegum: "linear-gradient(#DEF7DE 43%,#DEF7DE 100%)",
         cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
         blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",

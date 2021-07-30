@@ -43,14 +43,14 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#4E3822",
+  secondary: "#FFFFFF",
   background: "#FFFFFF", // main background
-  backgroundDisabled: "#4E3822", // buttons disable
-  backgroundAlt: "#000000", // menu, header, boxes
+  backgroundDisabled: "#808080", // buttons disable
+  backgroundAlt: "#808080", // menu, header, boxes
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
   invertedContrast: "#191326",
-  input: "#4E3822", // modal input
+  input: "#FFFFFF", // modal input
   inputSecondary: "#66578D",
   primaryDark: "#0098A1",
   tertiary: "#F40000",
