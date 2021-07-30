@@ -3808,7 +3808,7 @@ var UserBlock = function (_a) {
             onPresentAccountModal();
         }, style: { color: '#000' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
             onPresentConnectModal();
-        } }, "Connect"))));
+        }, style: { color: '#000' } }, "Connect"))));
 };
 var UserBlock$1 = React__default['default'].memo(UserBlock, function (prevProps, nextProps) { return prevProps.account === nextProps.account; });
 
