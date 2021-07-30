@@ -3214,7 +3214,7 @@ var Logo = function (_a) {
         React.createElement(Logo$2, { className: "desktop-icon", isDark: isDark })));
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "0px" }, isPushed ? (React.createElement(Icon$r, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$s, { width: "24px", color: "textSubtle" }))),
-        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Ball8 Finance home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "Ball8 Finance home page" }, innerLogo))));
+        isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "ball8 Finance home page" }, innerLogo)) : (React.createElement(StyledLink, { to: href, "aria-label": "ball8 Finance home page" }, innerLogo))));
 };
 var Logo$1 = React.memo(Logo, function (prev, next) { return prev.isPushed === next.isPushed && prev.isDark === next.isDark; });
 var templateObject_1$c, templateObject_2$5;
@@ -3371,7 +3371,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/spicycakefin",
+        href: "https://twitter.com/BallEightFinanc",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3954,7 +3954,7 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#DA5863",
-    primary: "#dc2026",
+    primary: "#FFFFFF",
     primaryBright: "#555ED5",
     primaryDark: "#43349c",
     secondary: "#DA5863",
