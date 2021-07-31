@@ -3742,7 +3742,7 @@ var ConnectModal = function (_a) {
     return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
         connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
         React__default['default'].createElement(HelpLink, { href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
-            React__default['default'].createElement(Icon$19, { color: "primary", mr: "6px" }),
+            React__default['default'].createElement(Icon$19, { color: "#fff", mr: "6px" }),
             "Learn how to connect")));
 };
 var templateObject_1$5;
@@ -3806,7 +3806,7 @@ var UserBlock = function (_a) {
     var accountEllipsis = account ? account.substring(0, 4) + "..." + account.substring(account.length - 4) : null;
     return (React__default['default'].createElement("div", null, account ? (React__default['default'].createElement(Button, { scale: "sm", variant: "tertiary", onClick: function () {
             onPresentAccountModal();
-        }, style: { color: '#000' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
+        }, style: { color: '#000', backgroundColor: '#fff' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
             onPresentConnectModal();
         }, style: { color: '#000', backgroundColor: '#fff' } }, "Connect"))));
 };
