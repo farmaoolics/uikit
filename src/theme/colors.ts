@@ -6,7 +6,7 @@ export const baseColors = {
   primaryBright: "#555ED5",
   primaryDark: "#43349c",
   secondary: "#DA5863",
-  success: "#F40000",
+  success: "#fff",
   warning: "#FFB237",
   white: "#fff",
   black: "#000",
@@ -44,7 +44,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#FFFFFF",
+  secondary: "#000",
   background: "#FFFFFF", // main background
   backgroundDisabled: "#FFFFFF", // buttons disable
   backgroundAlt: "#696969", // menu, header, boxes
@@ -57,7 +57,7 @@ export const darkColors: Colors = {
   tertiary: "#525252",
   text: "#FFFFFF", // boxes text
   textDisabled: "#666171",
-  textSubtle: "#AEAEAE", // menu text
+  textSubtle: "#fff", // menu text
   borderColor: "#524B63",
   gradients: {
     bubblegum: "linear-gradient(#fff 43%,#fff 100%)",
