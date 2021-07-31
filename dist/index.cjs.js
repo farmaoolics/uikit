@@ -3732,7 +3732,7 @@ var WalletCard = function (_a) {
             window.localStorage.setItem(connectorLocalStorageKey, walletConfig.connectorId);
             onDismiss();
         }, style: { justifyContent: "space-between" }, mb: mb, id: "wallet-connect-" + title.toLocaleLowerCase() },
-        React__default['default'].createElement(Text, { bold: true, color: "black", mr: "16px" }, title),
+        React__default['default'].createElement(Text, { bold: true, color: "white", mr: "16px" }, title),
         React__default['default'].createElement(Icon, { width: "32px" })));
 };
 
@@ -3741,7 +3741,7 @@ var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
     return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
         connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
-        React__default['default'].createElement(HelpLink, { href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
+        React__default['default'].createElement(HelpLink, { color: "#fff", href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
             React__default['default'].createElement(Icon$19, { color: "#fff", mr: "6px" }),
             "Learn how to connect")));
 };
@@ -3806,7 +3806,7 @@ var UserBlock = function (_a) {
     var accountEllipsis = account ? account.substring(0, 4) + "..." + account.substring(account.length - 4) : null;
     return (React__default['default'].createElement("div", null, account ? (React__default['default'].createElement(Button, { scale: "sm", variant: "tertiary", onClick: function () {
             onPresentAccountModal();
-        }, style: { color: '#000', backgroundColor: '#fff' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
+        }, style: { color: '#fff' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
             onPresentConnectModal();
         }, style: { color: '#000', backgroundColor: '#fff' } }, "Connect"))));
 };
@@ -3971,7 +3971,7 @@ var baseColors = {
     primary: "#000",
     primaryBright: "#555ED5",
     primaryDark: "#43349c",
-    secondary: "#DA5863",
+    secondary: "#ffffff",
     success: "#fff",
     warning: "#FFB237",
     white: "#fff",
