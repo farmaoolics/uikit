@@ -50,12 +50,12 @@ export const darkColors: Colors = {
   backgroundAlt: "#696969", // menu, header, boxes
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
-  invertedContrast: "#191326",
+  invertedContrast: "#fff",
   input: "#000", // modal input
   inputSecondary: "#66578D",
   primaryDark: "#0098A1",
   tertiary: "#525252",
-  text: "#000", // boxes text
+  text: "#ffff", // boxes text
   textDisabled: "#fff",
   textSubtle: "#fff", // menu text
   borderColor: "#524B63",
