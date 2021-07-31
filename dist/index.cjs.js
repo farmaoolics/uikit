@@ -3732,7 +3732,7 @@ var WalletCard = function (_a) {
             window.localStorage.setItem(connectorLocalStorageKey, walletConfig.connectorId);
             onDismiss();
         }, style: { justifyContent: "space-between" }, mb: mb, id: "wallet-connect-" + title.toLocaleLowerCase() },
-        React__default['default'].createElement(Text, { bold: true, color: "white", mr: "16px" }, title),
+        React__default['default'].createElement(Text, { bold: true, color: "black", mr: "16px" }, title),
         React__default['default'].createElement(Icon, { width: "32px" })));
 };
 
@@ -3740,7 +3740,7 @@ var HelpLink = styled__default['default'](Link)(templateObject_1$5 || (templateO
 var ConnectModal = function (_a) {
     var login = _a.login, _b = _a.onDismiss, onDismiss = _b === void 0 ? function () { return null; } : _b;
     return (React__default['default'].createElement(Modal, { title: "Connect to a wallet", onDismiss: onDismiss },
-        connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
+        connectors.map(function (entry, index) { return (React__default['default'].createElement(WalletCard, { key: entry.title, login: login, walletConfig: entry, onDismiss: onDismiss, mb: index < connectors.length - 1 ? "8px" : "0" })); }),
         React__default['default'].createElement(HelpLink, { href: "https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain", external: true },
             React__default['default'].createElement(Icon$19, { color: "primary", mr: "6px" }),
             "Learn how to connect")));
@@ -3975,6 +3975,7 @@ var baseColors = {
     success: "#F40000",
     warning: "#FFB237",
     white: "#fff",
+    black: "#000",
 };
 var brandColors = {
     binance: "#F0B90B",

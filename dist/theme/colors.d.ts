@@ -8,6 +8,7 @@ export declare const baseColors: {
     success: string;
     warning: string;
     white: string;
+    black: string;
 };
 export declare const brandColors: {
     binance: string;

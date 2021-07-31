@@ -9,6 +9,7 @@ export const baseColors = {
   success: "#F40000",
   warning: "#FFB237",
   white: "#fff",
+  black: "#000",
 };
 
 export const brandColors = {
