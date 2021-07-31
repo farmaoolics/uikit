@@ -3808,7 +3808,7 @@ var UserBlock = function (_a) {
             onPresentAccountModal();
         }, style: { color: '#000' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
             onPresentConnectModal();
-        }, style: { color: '#000' } }, "Connect"))));
+        }, style: { color: '#000', backgroundColor: '#fff' } }, "Connect"))));
 };
 var UserBlock$1 = React__default['default'].memo(UserBlock, function (prevProps, nextProps) { return prevProps.account === nextProps.account; });
 
@@ -3968,7 +3968,7 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#DA5863",
-    primary: "#FFFFFF",
+    primary: "#000",
     primaryBright: "#555ED5",
     primaryDark: "#43349c",
     secondary: "#DA5863",
