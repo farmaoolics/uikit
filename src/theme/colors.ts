@@ -46,7 +46,7 @@ export const darkColors: Colors = {
   ...brandColors,
   secondary: "#000",
   background: "#FFFFFF", // main background
-  backgroundDisabled: "#FFFFFF", // buttons disable
+  backgroundDisabled: "#000", // buttons disable
   backgroundAlt: "#696969", // menu, header, boxes
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
@@ -56,7 +56,7 @@ export const darkColors: Colors = {
   primaryDark: "#0098A1",
   tertiary: "#525252",
   text: "#FFFFFF", // boxes text
-  textDisabled: "#000",
+  textDisabled: "#fff",
   textSubtle: "#fff", // menu text
   borderColor: "#524B63",
   gradients: {
