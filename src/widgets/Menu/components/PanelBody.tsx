@@ -81,9 +81,9 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
           </MenuEntry>
         );
       })}
-      {/* <a href="https://rugdoc.io/project/spicycake-finance/" target="_blank">
+       <a href="https://rugdoc.io/project/balleight-finance/" target="_blank">
         <img src="rugdoctor.png" alt="Rug Doctor" width="100%"/>
-    </a> */}
+    </a>
     </Container>
   );
 };
