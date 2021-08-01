@@ -3392,7 +3392,7 @@ var MenuEntry = styled.div(templateObject_3$2 || (templateObject_3$2 = __makeTem
     return (secondary ? "14px" : "16px");
 }, function (_a) {
     var secondary = _a.secondary, theme = _a.theme;
-    return (secondary ? theme.colors.background : "transparent");
+    return (secondary ? theme.colors.backgroundAlt : "transparent");
 }, function (_a) {
     var theme = _a.theme;
     return theme.colors.textSubtle;
@@ -3957,7 +3957,7 @@ var baseColors = {
     primary: "#000",
     primaryBright: "#555ED5",
     primaryDark: "#43349c",
-    secondary: "#ffffff",
+    secondary: "#DA5863",
     success: "#fff",
     warning: "#FFB237",
     white: "#fff",
