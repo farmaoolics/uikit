@@ -709,7 +709,7 @@ var Icon$V = function (props) {
 
 var Icon$U = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React.createElement("image", { width: 90, height: 90, href: "images/balleight/token.png" })));
+        React.createElement("image", { width: 90, height: 90, href: "images/wfox/token.png" })));
 };
 
 var Icon$T = function (props) {
@@ -3795,9 +3795,9 @@ var UserBlock = function (_a) {
     var accountEllipsis = account ? account.substring(0, 4) + "..." + account.substring(account.length - 4) : null;
     return (React.createElement("div", null, account ? (React.createElement(Button, { scale: "sm", variant: "tertiary", onClick: function () {
             onPresentAccountModal();
-        }, style: { color: '#ff5b20' } }, accountEllipsis)) : (React.createElement(Button, { scale: "sm", onClick: function () {
+        }, style: { color: '#fff' } }, accountEllipsis)) : (React.createElement(Button, { scale: "sm", onClick: function () {
             onPresentConnectModal();
-        }, style: { color: '#000', backgroundColor: '#fff' } }, "Connect"))));
+        }, style: { color: '#ff5b20', backgroundColor: '#000' } }, "Connect"))));
 };
 var UserBlock$1 = React.memo(UserBlock, function (prevProps, nextProps) { return prevProps.account === nextProps.account; });
 
