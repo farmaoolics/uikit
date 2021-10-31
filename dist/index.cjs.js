@@ -3067,7 +3067,7 @@ var Icon$n = function (props) {
 };
 
 var Logo$2 = function () {
-    return (React__default['default'].createElement("img", { alt: "Ball8 Finance", src: "/images/balleight/header_logo_wide_white.png", style: { width: "auto", height: "35px" } }));
+    return (React__default['default'].createElement("img", { alt: "Ball8 Finance", src: "/images/wfox/headerlogo.png", style: { width: "auto", height: "35px" } }));
 };
 
 var Icon$m = function (props) {
@@ -3380,12 +3380,12 @@ var socials = [
     {
         label: "Discord",
         icon: "TelegramIcon",
-        href: "https://t.me/ball8finance",
+        href: "https://t.me/whitefoxdefi",
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/BallEightFinanc",
+        href: "https://twitter.com/WhiteFoxDefi",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -3809,7 +3809,7 @@ var UserBlock = function (_a) {
     var accountEllipsis = account ? account.substring(0, 4) + "..." + account.substring(account.length - 4) : null;
     return (React__default['default'].createElement("div", null, account ? (React__default['default'].createElement(Button, { scale: "sm", variant: "tertiary", onClick: function () {
             onPresentAccountModal();
-        }, style: { color: '#fff' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
+        }, style: { color: '#ff5b20' } }, accountEllipsis)) : (React__default['default'].createElement(Button, { scale: "sm", onClick: function () {
             onPresentConnectModal();
         }, style: { color: '#000', backgroundColor: '#fff' } }, "Connect"))));
 };
