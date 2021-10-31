@@ -54,7 +54,7 @@ export const darkColors: Colors = {
   input: "#000", // modal input
   inputSecondary: "#66578D",
   primaryDark: "#0098A1",
-  tertiary: "#525252",
+  tertiary: "#ff5b20",
   text: "#ffff", // boxes text
   textDisabled: "#fff",
   textSubtle: "#fff", // menu text
