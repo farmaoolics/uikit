@@ -49,7 +49,7 @@ export const darkColors: Colors = {
   background: "#FFFFFF", // main background
   backgroundDisabled: "#000", // buttons disable
   backgroundAlt: "#ff5b20", // menu, header, boxes
-  contrast: "#FFFFFF",
+  contrast: "#ff5b20",
   dropdown: "#1E1D20",
   invertedContrast: "#fff",
   input: "#000", // modal input
