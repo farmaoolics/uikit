@@ -80,7 +80,7 @@ const StyledButton = styled.button<BaseButtonProps>`
   })}
   ${layout}
   ${space}
-  /* color: #fff; */
+  color: #fff;
 `;
 
 export default StyledButton;
