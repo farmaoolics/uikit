@@ -10,7 +10,6 @@ export declare const baseColors: {
     white: string;
     black: string;
     principal: string;
-    modalText: string;
 };
 export declare const brandColors: {
     binance: string;

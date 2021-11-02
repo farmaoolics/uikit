@@ -1871,7 +1871,7 @@ var templateObject_1$p, templateObject_2$c, templateObject_3$7, templateObject_4
 
 var Icon$v = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 128 128" }, props),
-        React.createElement("image", { width: "96", height: "96", href: "images/balleight/token.png" })));
+        React.createElement("image", { width: "96", height: "96", href: "images/wfox/token.png" })));
 };
 
 var rotate = keyframes(templateObject_1$o || (templateObject_1$o = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
@@ -3965,8 +3965,7 @@ var baseColors = {
     warning: "#FFB237",
     white: "#fff",
     black: "#000",
-    principal: "#ff5b20",
-    modalText: "#000" // Modal imput Text
+    principal: "#ff5b20"
 };
 var brandColors = {
     binance: "#F0B90B",

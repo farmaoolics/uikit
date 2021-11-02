@@ -10,8 +10,7 @@ export const baseColors = {
   warning: "#FFB237",
   white: "#fff",
   black: "#000",
-  principal: "#ff5b20",
-  modalText: "#000" // Modal imput Text
+  principal: "#ff5b20"
 };
 
 export const brandColors = {
@@ -58,7 +57,7 @@ export const darkColors: Colors = {
   primaryDark: "#0098A1",
   tertiary: "#ff5b20",
   text: "#ffff", // boxes text 
-  textDisabled: "#ff5b20",
+  textDisabled: "#ff5b20", // button text disabled
   textSubtle: "#fff", // menu text
   borderColor: "#524B63",
   gradients: {
