@@ -3507,6 +3507,8 @@ var PanelBody = function (_a) {
                     React__default['default'].createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
                     entry.status && (React__default['default'].createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
         }),
+        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/whitefox-defi/", target: "_blank" },
+            React__default['default'].createElement("img", { src: "rugdoctor.png", alt: "Rug Doctor", width: "100%" })),
         React__default['default'].createElement("a", { href: "https://www.apeoclock.com/launch/white-fox-defi-farm-launch/", target: "_blank" },
             React__default['default'].createElement("img", { src: "ApeOclock.png", alt: "ApeOclock", width: "100%" }))));
 };

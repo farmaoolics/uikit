@@ -3493,6 +3493,8 @@ var PanelBody = function (_a) {
                     React.createElement(LinkLabelMemo, { isPushed: isPushed }, entry.label),
                     entry.status && (React.createElement(LinkStatus, { color: entry.status.color, fontSize: "14px" }, entry.status.text)))));
         }),
+        React.createElement("a", { href: "https://rugdoc.io/project/whitefox-defi/", target: "_blank" },
+            React.createElement("img", { src: "rugdoctor.png", alt: "Rug Doctor", width: "100%" })),
         React.createElement("a", { href: "https://www.apeoclock.com/launch/white-fox-defi-farm-launch/", target: "_blank" },
             React.createElement("img", { src: "ApeOclock.png", alt: "ApeOclock", width: "100%" }))));
 };
