@@ -3495,6 +3495,8 @@ var PanelBody = function (_a) {
         }),
         React.createElement("a", { href: "https://rugdoc.io/project/whitefox-defi/", target: "_blank" },
             React.createElement("img", { src: "rugdoctor.png", alt: "Rug Doctor", width: "100%" })),
+        React.createElement("a", { href: "https://jagosafer.io/whitefox", target: "_blank" },
+            React.createElement("img", { src: "greenflag.svg", alt: "Jago", width: "100%" })),
         React.createElement("a", { href: "https://www.apeoclock.com/launch/white-fox-defi-farm-launch/", target: "_blank" },
             React.createElement("img", { src: "ApeOclock.png", alt: "ApeOclock", width: "100%" }))));
 };

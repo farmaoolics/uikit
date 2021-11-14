@@ -84,9 +84,9 @@ const PanelBody: React.FC<Props> = ({ isPushed, pushNav, isMobile, links }) => {
        <a href="https://rugdoc.io/project/whitefox-defi/" target="_blank">
           <img src="rugdoctor.png" alt="Rug Doctor" width="100%"/>
         </a>
-        {/* <a href="https://jagosafer.io/whitefox" target="_blank">
+        <a href="https://jagosafer.io/whitefox" target="_blank">
           <img src="greenflag.svg" alt="Jago" width="100%"/>
-        </a> */}
+        </a>
         <a href="https://www.apeoclock.com/launch/white-fox-defi-farm-launch/" target="_blank">
           <img src="ApeOclock.png" alt="ApeOclock" width="100%"/>
         </a>
